@@ -46,15 +46,13 @@ const Stories = () => {
                 <img className="dummy-img" src={dummy} alt="" />
                 <div className="webHack-story-text-content">
                 <h2 className="webHack-story-text-content-title">{story.title}</h2>
-                <p>Author: {story.authorId}</p>
+                <p>Author: {story.authorId}</p> 
                 <p>Id: {story.id}</p>
               
                 <p className="webHack-story-text-content-url"> URL: <a href={story.url}>news link</a></p>
                 <p>Timestamp: {story.timestamp}</p>
                 <p>Score: {story.score}</p>
-                </div>
-             
-                
+                </div>         
               </div>
             ))}
           </ul>
