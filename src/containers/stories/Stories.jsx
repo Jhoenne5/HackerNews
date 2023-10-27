@@ -29,12 +29,10 @@ const Stories = () => {
                     authorId: story.by,
                   };    
                   setStories((prevStories) => [...prevStories, newStory]);
-
                 });
             });
           });
       }, []);
-    
       return (
         <div className='webHack-stories'>
             <div className="webHack-stories-heading">
