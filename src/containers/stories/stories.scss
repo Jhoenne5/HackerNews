@@ -10,10 +10,6 @@ $font-family: 'Manrope', sans-serif;
 
 .webHack-stories h1{
     text-align: center;
-
-}
-.webHack-story{
-   margin-bottom: 1rem;
 }
 .webHack-stories-heading{
 padding: 3rem 2rem;
@@ -23,6 +19,8 @@ padding: 3rem 2rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
 }
 .webHack-story li{
     text-decoration: none;
@@ -43,3 +41,21 @@ padding: 3rem 2rem;
     height: 50%;
     padding-bottom: 1rem;
 }
+.webHack-story-text-content-url a{
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+        color: orangered;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+  
+  
+    .webHack-story-text-content-title {
+      font-size: 14px;
+      padding: 0rem 4rem;
+    }
+  }
+  
