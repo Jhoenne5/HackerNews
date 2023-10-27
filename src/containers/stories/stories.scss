@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+
+.webHack-stories{
+    color: white;
+ 
+    margin: 7rem 0;
+}
+
+.webHack-stories h1{
+    text-align: center;
+
+}
+.webHack-story{
+   margin-bottom: 1rem;
+}
+.webHack-stories-heading{
+padding: 3rem 2rem;
+}
+
+.webHack-story{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.webHack-story li{
+    text-decoration: none;
+}
+.webHack-story-item{
+    margin: 3rem 0;
+}
+.webHack-story-item p{
+    font-family: $font-family;
+    color:rgba(129, 175, 221, 1);
+    font-weight: 200;
+}
+.webHack-story-item h2{
+    font-family: $font-family;
+}
+.dummy-img{
+    width: 50%;
+    height: 50%;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+$font-family: 'Manrope', sans-serif;
+
+.footer-logo{
+    width: 38%;
+    height: 78%;
+    border-radius: 50%;
+  }
+  .webHack-footer-links-logo p{
+    color: white;
+  
+  }
+
+  .webHack-footer{
+    display: flex;
+  
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #031B34;
+  }
+  .webHack-footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 12rem 0;
+  }
+  .webHack-footer-heading h1{
+    font-family: $font-family;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    
+
+  }
+
+  
+
+
+
+.webHack-footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+   
+}
+.webHack-footer-links div{
+    margin: 1rem;
+    width: 250px;
+    
+}
+
+.webHack-footer-links p{
+    font-family: $font-family;
+    font-size: 14px;
+}
+.webHack-footer-links-div h4{
+    font-family: $font-family;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1rem;   
+}
+.webHack-footer-links-div p{
+    font-family: $font-family;
+font-size: 12px;
+line-height: 14px;
+margin-top:  1.5rem;
+cursor: pointer;
+font-weight: 200;
+}
+.webHack-footer-copyright{
+    margin-top: 5rem;
+    text-align: center;
+}
+.webHack-footer-copyright p{
+    font-family: $font-family;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+  .webHack-footer-heading h1{
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 320px){
+
+  .webHack-footer-btn{
+    margin-bottom: 3rem;
+  }
+  .webHack-footer-links{
+    justify-content: center;
+    text-align: center;
+  }
+
+
+}

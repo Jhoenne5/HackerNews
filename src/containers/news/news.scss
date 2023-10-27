@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+
+.webHack-news{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.webHack-news-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.webHack-news-heading{
+    width: 100%;
+  
+    margin-bottom: 10rem;
+    padding: 8rem 10rem;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.webHack-news-heading h1{
+    font-family: $font-family;
+    font-family: Manrope;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+}
+.webHack-news-container-groupA{
+    width: 50%;
+}
+.webHack-news-container-groupB{
+    width: 50%;
+}
+
+
+.webHack-news-container-groupC{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10rem;
+}
+
+.webHack-news-container-groupC{
+    margin: 13rem 10rem;
+}
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+    .webHack-news-heading{
+      padding: 8rem 4rem;
+      
+    }
+    .webHack-news-heading h1{
+       font-size: 40px;
+       line-height: 55px;
+    }
+    .webHack-news-container-article-content {
+    padding: 0 4rem;
+    }
+    .webHack-footer-links {
+       justify-content: center;
+       text-align: center;
+    }
+  
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px){
+    .webHack-news-heading {
+        padding: 0;
+        margin: 6rem 0;
+       
+       
+    }
+    .webHack-news-heading h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .webHack-news-container-article-content{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .webHack-news-container-article-content h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .webHack-news-container-article-content p{
+            font-size: 15px;
+    }
+    .webHack-news-container{
+        display: block;
+        
+    }
+    .webHack-news-container-groupA{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .webHack-news-container-groupB{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .webHack-news-container-groupC {
+        margin: 0;
+    }
+    .webHack-news-container-article-image img {
+        margin-bottom: 1rem;
+    }
+    .webHack-footer-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+

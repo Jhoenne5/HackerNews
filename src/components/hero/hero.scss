@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+
+.webHack-Hero{
+    display: flex;
+
+}
+webHack-Hero img{
+    width: 20%;
+    height: 20%;
+}
+.webHack-Hero-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.webHack-hero-content-img {
+    width: 10%;
+    height: 10%;
+}
+
+.webHack-Hero-content h1{
+    font-family: $font-family;
+    font-weight: 800;
+    font-size: 60px; 
+    line-height: 4.5rem;
+}
+
+.webHack-Hero-content p{
+    margin: 1rem 0;
+    font-family: $font-family;
+    font-size: 18px;
+    line-height: 27px;
+    color: azure;
+    font-weight: 200;
+}
+.webHack-hero-content-input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+.webHack-hero-content-input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+     background: #052D56;
+     border-radius: 5px 0px 0px 5px;
+     color: azure;
+     font-size: 20px;
+     line-height: 27px;
+     font-family: $font-family;
+     padding: 0 1rem;
+    border: 2px solid  #052D56;
+    ;
+     
+}
+
+.webHack-hero-content-input button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+
+    background: #FF4820;
+    color: white;
+    width: 174px;
+    height: 73px;
+    top: 624px;
+    left: 768px;
+    border-radius: 5px, 0px, 0px, 5px;
+    font-size: 20px;
+
+    font-family: $font-family;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .webHack-Hero-content {
+        margin: 0;
+    }
+    .webHack-Hero-content h1{
+        font-size: 40px;
+        line-height: 3rem;
+    }
+    .webHack-hero-content-input input{
+        height: 20px;
+    }
+    .webHack-hero-content-input button {
+        height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 320px){
+    .webHack-Hero-content {
+        margin: 0;
+    }
+    .webHack-Hero-content h1{
+        font-size: 30px;
+        line-height: 2.3rem;
+    }
+    .webHack-hero-content-input input{
+        height: 20px;
+        font-size: 13px;
+    }
+    .webHack-hero-content-input button {
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
+.webHack-hero-content-input button{
+    
+    transition: color 0.4s;
+        &:hover{
+            background:linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%); ;
+            color: #052D56 ;
+        }
+}

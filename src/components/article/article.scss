@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+
+
+.webHack-news-container-article-image img{
+    width: 71%;
+    height: 100%;
+    margin-bottom: 2.5rem;
+}
+
+
+.webHack-news-container-article-content p{
+font-family: $font-family;
+color: rgba(129, 175, 221, 1);
+font-weight: 300;
+}
+
+.webHack-news-container-article-content h3{
+    font-family: $font-family;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+ 
+    
+}
+.webHack-news-container-article-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.webHack-news-container-article-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    line-height: 30px;
+    padding: 0rem 10rem;
+}
+
+@media screen and (max-width: 550px) {
+    .webHack-news-container-article{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

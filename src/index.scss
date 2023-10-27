@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+$gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+$gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+$color-bg: #040C18;
+$color-footer: #031B34;
+$color-blog: #042c54;
+$color-text: #81AFDD;
+$color-subtext: #FF8A71;
+
+$gradient-bg: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+$section_padding:  4rem 6rem;
+$section_margin: 4rem 6rem;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: $color-bg;
+}
+
+.gradient-bg{
+  background: $gradient-bg;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+.text-gradient {
+  background: $gradient-text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+  
+
+}
+
+
+.section-padding{
+ padding: $section_padding;
+}
+.section-margin{
+  margin: $section_margin;
+}
+
+
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px){
+.section-padding{
+  padding: 4rem;
+}
+.section-margin{
+  padding: 4rem;
+}
+}
+@media screen and (max-width: 550px){
+  .section-padding{
+    padding: 4rem 2rem;
+  }
+  .section-margin{
+    padding: 4rem 2rem;
+  }
+  }

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:ital,wght@1,300&display=swap');
+.navbar{
+    color: blue;
+}
+
+.logo{
+    width: 38%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  .webHack-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+  }
+  .webHack-navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.webHack-navbar-links-container{
+    display: flex;
+    flex-direction: row;
+ 
+ 
+    
+}
+.webHack-navbar-links-container a{
+    margin-right: 20px;
+}
+.webHack-navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.webHack-navbar-links-container p, 
+.webHack-navbar-sign p,
+.webHack-navbar-menu-container p{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin:  0 1rem;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+.webHack-navbar-sign button,
+.webHack-navbar-menu-container button{
+    border-radius: 5px;
+    background: #FF4820;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    border: 0;
+    outline: none;
+}
+
+.webHack-navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.webHack-navbar-menu svg{
+cursor: pointer;
+}
+.webHack-navbar-menu-container{
+    display: flex; 
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    text-align: end;
+
+}
+
+.webHack-navbar-menu-container p{
+    margin:  1rem 0rem;
+}
+.webHack-navbar-menu-container-link-sign{
+    display: none;
+}
+@media screen and (max-width: 1050px){
+    .webHack-navbar-links-container{
+        display: none;
+    }
+    .webHack-navbar-menu{
+        display: flex;
+    }
+
+}
+
+.webHack-p-item a{
+    color: white;
+    transition: color 0.3s;
+      &:hover{
+        color: orangered;
+        text-decoration: none;
+      }
+}
+
+.webHack-navbar-sign button{
+  
+    transition: color 0.3s;
+        &:hover{
+            background:#052D56;
+            
+            color: orangered;
+        }
+}
+

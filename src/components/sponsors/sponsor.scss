@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+
+.webHack-sponsors-container{
+margin: 0rem 10rem;
+margin-top: 18rem;
+margin-bottom: 12rem;
+}
+
+.webHack-sponsors{
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0rem;
+
+
+   
+}
+.webHack-sponsors img{
+    width: 14%;
+    height: 10%;
+    width: 110.1px;
+    height: 100.15px;
+
+}
+
+.adjust-ibm{
+    border-radius: 52px;
+}
+
+.webHack-sponsors-Powered-header h2{
+    color: white;
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+}
+.webHack-safety-features{
+    display: flex;
+ 
+    
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+
+    .webHack-sponsors div{
+        margin-bottom: 2rem;
+    }
+
+    .webHack-sponsors-container{
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 320px){
+    .webHack-sponsors-container{
+        margin: 1rem 2rem;
+    }
+    .webHack-sponsors-container h2{
+        font-size: 20px;
+    }
+    .webHack-sponsors-container{
+        margin: 0;
+    }
+    .webHack-sponsors-Powered-header{
+        padding: 0rem 2rem;
+    }
+    .webHack-sponsors{
+    margin: 1rem 0;
+        padding: 2rem 3rem;
+    }
+    .webHack-sponsors div img{
+       width: 60px;
+       height: 60px; 
+    
+    }
+    .webHack-sponsors div{
+        padding-bottom: 10px;
+    }
+}
